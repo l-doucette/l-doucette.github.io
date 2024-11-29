@@ -64,3 +64,5 @@ plt.text(2 + offset + 0.1, effect_sizes_800[2], '800 ms', color='red', fontsize=
 plt.tight_layout()
 plt.show()
 ~~~
+
+![Poster Image](./assets/img/Poster Imge 2.png)
