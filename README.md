@@ -141,4 +141,7 @@ for file_path in file_paths:
     # Save cropped image
     cropped_img.save(f"cropped_{file_path}")
 ~~~
-
+Before:
+![Screenshot](./assets/img/Screenshot (1).png)
+After:
+![Screenshot](./assets/img/cropped_Screenshot (1).png)
