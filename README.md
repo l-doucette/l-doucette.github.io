@@ -3,7 +3,7 @@
 ### Education
 *Secondary:<br>
 International Baccalaureate Diploma (IB) + Provincial High School Diploma<br><br>
-*Tertiary*:<br>
+*Tertiary:<br>
 B.Sc. Neuroscience; Minor: Philosophy<br>
 (Ongoing at Dalhousie University (Fourth Year), GPA: 4.25)<br>
 ### Coding Portfolio
