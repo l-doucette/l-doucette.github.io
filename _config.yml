@@ -1,13 +1,14 @@
 # Site Settings
 title: Luc Doucette
 logo: assets/img/IMG_20210815_174950_407.jpg
-email: lucadoucette@gmail.com
 description: "This is my personal website, showcasing my projects and experience."
 show_downloads: true
 
 # Social links
-linkedin: "https://www.linkedin.com/in/lucdoucette/"
-email: "mailto:lucadoucette@gmail.com" 
+author:
+  email: lucadoucette@gmail.com
+  github_username: l-doucette
+  linkedin_username: lucdoucette
   
 # Theme
 theme: jekyll-theme-minimal
