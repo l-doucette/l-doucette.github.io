@@ -2,7 +2,8 @@
 
 ### Education
 *Secondary*:<br>
-International Baccalaureate Diploma (IB) + Provincial High School Diploma<br><br>
+International Baccalaureate Diploma (IB) + Provincial High School Diploma<br>
+Governor General's Academic Medal (HS) Recipient<br><br>
 *Tertiary*:<br>
 B.Sc. Neuroscience; Minor: Philosophy<br>
 (Ongoing at Dalhousie University (Fourth Year), GPA: 4.25)<br>
@@ -142,6 +143,6 @@ for file_path in file_paths:
     cropped_img.save(f"cropped_{file_path}")
 ~~~
 Before:<br><br>
-![Screenshot](./assets/img/Screenshot (1).png)
+![Screenshot](./assets/img/Screenshot (1).png)<br>
 After:<br><br>
 ![Screenshot](./assets/img/cropped_Screenshot (1).png)
