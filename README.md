@@ -146,3 +146,8 @@ Before:<br><br>
 ![Screenshot](./assets/img/Screenshot (1).png)<br>
 After:<br><br>
 ![Screenshot](./assets/img/cropped_Screenshot (1).png)
+
+### Contact
+- **Email:** [lucadoucette@gmail.com](mailto:lucadoucette@gmail.com)
+- **LinkedIn:** [Visit my LinkedIn](https://www.linkedin.com/in/lucdoucette/)
+
