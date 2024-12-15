@@ -1,9 +1,9 @@
 # Dalhousie Neuroscience Student
 
 ### Education
-*Secondary*:<br><br>
-International Baccalaureate Diploma (IB) + Provincial High School Diploma<br>
-*Tertiary*:<br><br>
+*Secondary:<br>
+International Baccalaureate Diploma (IB) + Provincial High School Diploma<br><br>
+*Tertiary*:<br>
 B.Sc. Neuroscience; Minor: Philosophy<br>
 (Ongoing at Dalhousie University (Fourth Year), GPA: 4.25)<br>
 ### Coding Portfolio
@@ -94,3 +94,7 @@ plt.tight_layout()
 plt.show()
 ~~~
 ![Heatmap](./assets/img/output.png)
+
+Example 3:<br><br>
+
+
