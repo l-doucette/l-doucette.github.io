@@ -8,7 +8,7 @@ B.Sc. Neuroscience; Minor: Philosophy<br>
 (Ongoing at Dalhousie University (Fourth Year), GPA: 4.25)<br>
 ### Coding Portfolio
 Example 1:<br><br>
-The following code was used for data visualisation, the graphs for which were used in a research paper in Attention. The legendless graphs were by instructor request. 
+The following code was used for data visualisation, the graphs for which were used in a research paper in Purely Voluntary Orienting (a subfield in attention research). The legendless graphs were by instructor request. 
 ~~~python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -73,7 +73,7 @@ plt.show()
 ![Poster Image](./assets/img/Poster Imge 2.png)
 
 Example 2:<br><br>
-
+I created the following heatmap to aid in visualizing the distribution of various milk types used in Canadian cheeses, by province, in an effort to identify gaps in the market. This information could be useful for prospecting cheesemakers, or equally for stock farmers.
 ~~~python
 # Heatmap for milk type concentration by province
 plt.figure(figsize=(12, 6))
@@ -96,5 +96,49 @@ plt.show()
 ![Heatmap](./assets/img/output.png)
 
 Example 3:<br><br>
+The following was created out of necessity, based on a conundrum I had regarding having to crop many images to exactly the same dimensions. It is easy to imagine how long the process would take with hundreds or thousands of images. This quickly and efficiently solves the issue. 
+~~~python
+from PIL import Image
 
+# Screen resolution (of the device upon which the screenshots were taken)
+screen_width = 1920  # Replace with your screen width in pixels
+screen_height = 1080  # Replace with your screen height in pixels
+
+# Dimensions of the crop box in inches
+crop_width_in_inches = 5
+crop_height_in_inches = 3
+
+# DPI (Dots per Inch) of the screenshots (typically 96 DPI for most screens)
+dpi = 96
+
+# Convert dimensions to pixels
+crop_width = int(crop_width_in_inches * dpi)
+crop_height = int(crop_height_in_inches * dpi)
+
+# Calculate the center of the screen
+center_x = screen_width // 2
+center_y = screen_height // 2
+
+# Calculate the crop box
+from PIL import Image
+
+# Calculate the crop box
+left = center_x - crop_width // 2
+top = center_y - crop_height // 2 + int(0.27 * crop_height)  # Centered vertically, moved down by 1 inch, then moved up by 10% of the crop height
+right = left + crop_width
+bottom = top + crop_height
+crop_box = (left, top, right, bottom)
+
+# make file_paths equal to all the screenshots in the folder
+file_paths = [f"Screenshot ({i}).png" for i in range(1,16)]
+
+# Crop each image
+for file_path in file_paths:
+    # Open image
+    img = Image.open(file_path)
+    # Crop image
+    cropped_img = img.crop(crop_box)
+    # Save cropped image
+    cropped_img.save(f"cropped_{file_path}")
+~~~
 
