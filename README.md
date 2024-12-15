@@ -149,6 +149,7 @@ After:<br><br>
 ![Screenshot](./assets/img/cropped_Screenshot (1).png)
 
 ### Contact
-- **Email:** [lucadoucette@gmail.com](mailto:lucadoucette@gmail.com)
+- **University Email:** [lc339504@dal.ca](mailto:lc339504@dal.ca)
+- **Personal Email:** [lucadoucette@gmail.com](mailto:lucadoucette@gmail.com)
 - **LinkedIn:** [Visit my LinkedIn](https://www.linkedin.com/in/lucdoucette/)
 
