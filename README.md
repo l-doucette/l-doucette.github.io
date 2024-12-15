@@ -1,7 +1,10 @@
 # Neuroscience Student
 
 ### Education
-B.Sc. Neuroscience; Minor: Philosophy
+*Secondary*:
+International Baccalaureate Diploma (IB) + Provincial High School Diploma
+*Tertiary*:
+B.Sc. Neuroscience; Minor: Philosophy (Ongoing at Dalhousie University (Fourth Year), GPA: 4.25)
 ### Coding Portfolio
 The following code was used for data visualisation, the graphs for which were used in a research paper in Attention. The legendless graphs were by request. 
 ~~~python
