@@ -1,7 +1,7 @@
 # Site Settings
 title: Luc Doucette
 logo: assets/img/IMG_20210815_174950_407.jpg
-description: "This is my personal website, showcasing my projects and experience. My contact information can be found below. 
+description: "This is my personal website, showcasing my projects and experience. My contact information can be found below."
 show_downloads: true 
 # Theme
 theme: jekyll-theme-minimal
