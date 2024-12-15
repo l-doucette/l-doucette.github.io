@@ -8,8 +8,7 @@ B.Sc. Neuroscience; Minor: Philosophy<br>
 (Ongoing at Dalhousie University (Fourth Year), GPA: 4.25)<br>
 ### Coding Portfolio
 Example 1:<br><br>
-The following code was used for data visualisation, the graphs for which were used in a research paper in Attention.<br>
-The legendless graphs were by request. 
+The following code was used for data visualisation, the graphs for which were used in a research paper in Attention. The legendless graphs were by instructor request. 
 ~~~python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -72,3 +71,26 @@ plt.show()
 ~~~
 
 ![Poster Image](./assets/img/Poster Imge 2.png)
+
+Example 2:<br><br>
+
+~~~python
+# Heatmap for milk type concentration by province
+plt.figure(figsize=(12, 6))
+sns.heatmap(contingency_percent, annot=True, fmt=".1f", cmap='YlGnBu', cbar_kws={'label': 'Percentage'})
+plt.title('Distribution of Milk Types by Province (Percentage)')
+plt.xlabel('Milk Type')
+plt.ylabel('Province of Origin')
+plt.tight_layout()
+plt.show()
+
+# Stacked bar chart for visualizing the distribution of milk types by province
+contingency_table.plot(kind='bar', stacked=True, figsize=(12, 6), colormap='Set2')
+plt.title('Milk Type Distribution by Province')
+plt.xlabel('Province')
+plt.ylabel('Count')
+plt.legend(title='Milk Type', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.tight_layout()
+plt.show()
+~~~
+![Heatmap](./assets/img/output.png)
