@@ -2,8 +2,8 @@
 
 ### Education
 B.Sc. Neuroscience; Minor: Philosophy
-### Work Experience
-
+### Coding Portfolio
+The following code was used for data visualisation, the graphs for which were used in a research paper in Attention. The legendless graphs were by request. 
 ~~~python
 import matplotlib.pyplot as plt
 import numpy as np
