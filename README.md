@@ -7,7 +7,9 @@ International Baccalaureate Diploma (IB) + Provincial High School Diploma<br>
 B.Sc. Neuroscience; Minor: Philosophy<br>
 (Ongoing at Dalhousie University (Fourth Year), GPA: 4.25)<br>
 ### Coding Portfolio
-The following code was used for data visualisation, the graphs for which were used in a research paper in Attention. The legendless graphs were by request. 
+Example 1:<br>
+The following code was used for data visualisation, the graphs for which were used in a research paper in Attention.<br>
+The legendless graphs were by request. 
 ~~~python
 import matplotlib.pyplot as plt
 import numpy as np
